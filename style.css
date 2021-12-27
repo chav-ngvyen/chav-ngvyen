@@ -1,0 +1,269 @@
+/* flat */
+/* black */
+/* blue */
+/* yellow */
+/* red */
+/* off-white */
+body {
+  background: #1E1E1F;
+  font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+h1 {
+  width: 100%;
+  color: #FFFBF5;
+  font: 25rem/25rem 'Open Sans', Helvetica, sans-serif;
+  font-weight:300;
+  text-transform: uppercase;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -50%;
+  margin-top: -5rem;
+  /* font-weight: normal; */
+  text-shadow: 1px 1px 0 #404040, 2px 2px 0 #404040, 3px 3px 0 #404040, 4px 4px 0 #404040, 5px 5px 0 #404040, 6px 6px 0 #404040, 7px 7px 0 #404040;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  font: 2rem/2rem;
+  padding-top:5%;
+  color: white;
+}
+
+h3 {
+  /* width: 100%; */
+  text-align: center;
+  /* font: 2rem/2rem; */
+  padding-top:2.5%;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  font-size: 5vh;
+}
+
+p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.5rem;
+
+}
+
+p.name{
+    /* height: 100%; */
+    text-align: center;
+    /* padding-top:2vh; */
+    margin-top:5vh;
+    margin-bottom:5vh;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:500;
+    font-size: 2rem;
+    position:relative;
+  }
+
+p.edu {
+  text-align: center;
+  margin-top:5vh;
+  margin-bottom:5vh;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight:400;
+  font-size: 1.25rem;
+  position:relative;
+}
+
+p.icon {
+  text-align: center;
+  margin-top:5vh;
+  margin-bottom:5vh;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight:400;
+  font-size: 1.25rem;
+  position:relative;
+}
+
+p.about {
+  margin-left: 25%;
+  padding-left:3%;
+  padding-right:7%;
+  /* padding-left: 5%; */
+}
+
+ul {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0%;
+  left: 50%;
+  margin-left: -50%;
+  /* margin-top: -2.5rem; */
+  /* margin-bottom: 1%; */
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* background-color: gray; */
+
+}
+ul li {
+  -webkit-transition: 100ms ease 0s;
+  -moz-transition: 100ms ease 0s;
+  -o-transition: 100ms ease 0s;
+  -ms-transition: 100ms ease 0s;
+  transition: 100ms ease 0s;
+  display: inline-block;
+  width: 13rem;
+  margin: 20px 0;
+  font: bold 3rem/4rem;
+  background: #FFFBF5;
+  text-align: center;
+  -webkit-border-radius: 50rem;
+  padding: 5px 5px;
+  border-radius: 5rem;
+}
+ul li a {
+  color: #404040;
+  text-decoration: none;
+  display: block;
+}
+ul .active {
+  -webkit-transition: 500ms ease 0s;
+  -moz-transition: 500ms ease 0s;
+  -o-transition: 500ms ease 0s;
+  -ms-transition: 500ms ease 0s;
+  transition: 500ms ease 0s;
+  margin: 5px 10px 5px 0px;
+  padding: 15px 15px;
+  font-weight:bold;
+  box-shadow: 1px 1px 0 #404040, 2px 2px 0 #404040, 3px 3px 0 #404040, 4px 4px 0 #404040, 5px 5px 0 #404040, 6px 6px 0 #404040, 7px 7px 0 #404040, 8px 8px 0 #404040, 9px 9px 0 #404040;
+}
+
+div {
+  width: 100vw;
+  height: 91vh;
+  background: #404040;
+  /* min-height: 700px; */
+  text-align: center;
+}
+
+/* .section:nth-child(2n){
+  background: #a2a9b0;
+} */
+
+
+.section .center1{
+  background: #dde1e6;
+  padding: 5vh 0;
+  text-align: center;
+}
+
+
+.section .center2{
+  background: #a2a9b0;
+  padding: 30vh 0;
+  text-align: center;
+  /* margin: 5%; */
+
+}
+
+.section .center3 {
+  background: #697077;
+  padding: 50vh 0;
+  text-align: center;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.aboutimg{
+  object-fit:cover;
+  border-radius:50%;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: auto;
+  height: auto;
+  max-width: 20%;
+  padding-top:1%;
+  padding-bottom:1%;
+}
+
+.leftimg{
+  position: absolute;
+  object-fit:cover;
+  border-radius:50%;
+  float:center;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width: auto;
+  height: auto;
+  max-width: 25%;
+  padding-top:1%;
+  padding-bottom:1%;
+  padding-left:1%;
+  padding-right:1%; 
+}
+
+
+
+ /* Style all font awesome icons */
+ .fab {
+
+  font-size: 48px;
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  background:transparent;
+  display: inline-block;
+  padding-top: 20px;  
+  margin: 0px;
+  width: 5rem;
+}
+
+ /* Style all font awesome icons */
+ .far {
+  font-size: 48px;
+  text-align: center;
+  text-decoration: none;
+  color:black;
+  background:transparent;
+  display: inline-block;
+  padding-top: 20px;  
+  margin: 0px;
+  width: 5rem;
+}
+
+/* Set a specific color for each brand */
+
+/* Twitter */
+.fa-twitter:hover {
+  color:#1DA1F2;
+  font-size:66px;
+  padding: 0px; 
+}
+
+/* LinkedIn */
+.fa-linkedin:hover {
+  color:#0e76a8;
+  font-size:66px;
+  padding: 0px; 
+
+}
+
+/* Github */
+.fa-github:hover {
+  color:#6e5494;
+  font-size:66px;
+  padding: 0px; 
+}
+
+/* Email */
+.fa-envelope:hover {
+  color:white;
+  font-size:66px;
+  padding: 0px;  
+
+}
