@@ -163,13 +163,18 @@ div {
   background: #a2a9b0;
   padding: 30vh 0;
   text-align: center;
-  /* margin: 5%; */
 
 }
 
 .section .center3 {
   background: #697077;
   padding: 50vh 0;
+  text-align: center;
+}
+
+.section .center4{
+  background: #dde1e6;
+  padding: 5vh 0;
   text-align: center;
 }
 
