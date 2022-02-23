@@ -5,7 +5,7 @@
 /* red */
 /* off-white */
 body {
-  background: #1E1E1F;
+  background: black;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -69,8 +69,8 @@ p.name{
     /* padding-top:2vh; */
     margin-top:5vh;
     margin-bottom:5vh;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight:500;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
     font-size: 2.25rem;
     position:relative;
   }
@@ -127,7 +127,7 @@ ul.nav li {
   -ms-transition: 100ms ease 0s;
   transition: 100ms ease 0s;
   display: inline-block;
-  width: 13rem;
+  width: 15rem;
   margin: 20px 0;
   font: bold 3rem/4rem;
   background: #FFFBF5;
@@ -187,7 +187,20 @@ div {
 }
 
 .section .center3{
-  background: blue;
+  background: #697077;
+  padding: 5vh 0;
+  text-align: center;
+}
+
+.section .center4{
+  background: #343a3f;
+  padding: 5vh 0;
+  text-align: center;
+}
+
+.section .center5{
+  background: #121619;
+  padding: 5vh 0;
   text-align: center;
 }
 
@@ -215,6 +228,23 @@ strong {
   object-fit:cover;
   border-radius:50%;
   float:center;
+  display:block;
+  margin-left:1.5%;
+  margin-right:auto;
+  margin-top:5%;
+  width: auto;
+  height: auto;
+  max-width: 23%;
+  padding-top:1%;
+  padding-bottom:1%;
+  padding-left:1%;
+  padding-right:1%; 
+}
+
+.uvimg{
+  position: absolute;
+  object-fit:cover;
+  float:left;
   display:block;
   margin-left:1.5%;
   margin-right:auto;
