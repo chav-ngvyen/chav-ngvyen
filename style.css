@@ -45,9 +45,9 @@ h3 {
   font-size: 5vh;
 }
 
-.list-heading {
+.hello {
   font-weight: normal;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: left;
   margin-left:25%;
   padding-left: 3%;
@@ -55,6 +55,20 @@ h3 {
   padding-top:1%;
   padding-bottom:0.5%;
 }
+
+.list-heading {
+  font-weight: normal;
+  font-size: 2.25rem;
+  text-align: left;
+  margin-left:25%;
+  padding-left: 3%;
+  color: black;
+  padding-top:1%;
+  padding-bottom:0.5%;
+}
+
+
+
 
 
 p {
@@ -70,8 +84,8 @@ p.name{
     margin-top:5vh;
     margin-bottom:5vh;
     font-family: 'Roboto', sans-serif;
-    font-weight:700;
-    font-size: 2.25rem;
+    font-weight:500;
+    font-size: 3rem;
     position:relative;
   }
 
@@ -81,7 +95,7 @@ p.edu {
   margin-bottom:5vh;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight:400;
-  font-size: 1.5rem;
+  font-size: 2rem;
   position:relative;
 }
 
@@ -97,12 +111,16 @@ p.icon {
 
 p.about {
   margin-left: 25%;
+  margin-right: 5%;
   padding-left:3%;
   padding-right:7%;
   padding-bottom:1%;
   /* padding-left: 5%; */
   text-align:left;
+  font-size:1.5rem;
 }
+
+
 
 ul.nav {
   width: 100%;
@@ -162,6 +180,8 @@ ul.int{
 }
 
 
+
+
 div {
   width: 100vw;
   height: 91vh;
@@ -183,7 +203,10 @@ div {
   background: #a2a9b0;
   padding: 5vh 0;
   text-align: center;
+}
 
+.section .center2 li{
+  font-size:1.5rem;
 }
 
 .section .center3{
@@ -195,8 +218,25 @@ div {
 .section .center4{
   background: #343a3f;
   padding: 5vh 0;
-  text-align: center;
+  text-align: left;
 }
+
+.section .center4 li{
+  color:white; 
+  font-size: 1.5rem;
+  list-style-type: disc;
+  display:list-item;
+  padding: 2vh 0;
+  margin-left:15%;
+  margin-right:10%;
+}
+
+
+.section .center4 h3{
+  color:white; 
+}
+
+
 
 .section .center5{
   background: #121619;
@@ -205,9 +245,12 @@ div {
 }
 
 
-
 strong {
   font-weight: bold;
+}
+
+italic {
+  font-style: italic;
 }
 
 .aboutimg{
@@ -321,4 +364,28 @@ strong {
   color:#FDB515;
   font-size:66px;
   padding: 0px;
+}
+
+a:link {
+  color: #82cfff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #82cfff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #82cfff;
+  background-color: transparent;
+  text-decoration: underline;
 }
