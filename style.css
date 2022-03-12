@@ -99,6 +99,16 @@ p.edu {
   position:relative;
 }
 
+p.copyright {
+  text-align: center;
+  margin-top:5vh;
+  margin-bottom:5vh;
+  font-weight:700;
+  font-size: 1.5rem;
+  color:#121619;
+  position:relative;
+}
+
 p.icon {
   text-align: center;
   margin-top:5vh;
@@ -203,11 +213,11 @@ div {
   background: #a2a9b0;
   padding: 5vh 0;
   text-align: center;
+  font-size:1.5rem;
+
 }
 
-.section .center2 li{
-  font-size:1.5rem;
-}
+
 
 .section .center3{
   background: #697077;
